@@ -1,0 +1,684 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, margin=2cm]{geometry}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{tikz-feynman}
+\tikzfeynmanset{compat=1.1.0}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\section*{Weak Interactions -- Initial Stage}
+
+\textbf{Worked example:} A strange quark changes into an up quark by emitting a \(W^-\) boson:
+\[
+s \rightarrow u + W^-
+\]
+
+\vspace{0.5cm}
+
+% Two-column layout
+\begin{tabular}{l l}
+
+% LEFT COLUMN
+\begin{minipage}[t]{0.46\textwidth}
+\vspace{0pt}
+\textbf{Feynman diagram}
+
+\vspace{0.6cm}
+
+% --- TEMPLATE (labels changed only) ---
+\begin{tikzpicture}
+\begin{feynman}
+  % Vertices
+  \vertex (l1) at (0,0) {\(s\)};
+  \vertex [coordinate] (a) at (1,2) {};
+  \vertex (l2) at (0,4) {\(u\)};
+  \vertex (b) at (4,2) {};
+
+  \diagram*{
+    (l1) -- [fermion] (a) -- [fermion] (l2),
+    (a) -- [boson, edge label=\(W^-\), momentum'={}] (b),
+  };
+\end{feynman}
+\end{tikzpicture}
+% --- END TEMPLATE ---
+\end{minipage}
+&
+% RIGHT COLUMN
+\begin{minipage}[t]{0.50\textwidth}
+\vspace{0pt}
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{@{}l c c c c c@{}}
+ & \(s\) & \(\Rightarrow\) & \(u\) & \(+\) & \(W^-\) \\
+Charge & $-\tfrac{1}{3}$ & $=$ & $+\tfrac{2}{3}$ & $+$ & $-1$ \\
+Lepton no. & $0$ & $=$ & $0$ & $+$ & $0$ \\
+Baryon no. & $\tfrac{1}{3}$ & $=$ & $\tfrac{1}{3}$ & $+$ & $0$ \\
+\end{tabular}
+
+\end{minipage}
+
+\end{tabular}
+
+\vspace{0.8cm}
+
+\textbf{Conclusion:} Charge, lepton number, and baryon number are conserved, so this flavour change is allowed in the weak interaction.
+
+\vspace{0.9cm}
+
+\section*{Practice: Weak Interactions -- Flavour Change}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Q1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textbf{Q1:} Determine the unknown particle:
+\[
+\bar{d} \rightarrow \bar{u} + x
+\]
+
+\vspace{0.5cm}
+
+\begin{tabular}{l l}
+
+% LEFT COLUMN
+\begin{minipage}[t]{0.46\textwidth}
+\vspace{0pt}
+\textbf{Feynman diagram}
+
+\vspace{0.6cm}
+
+% --- TEMPLATE (labels changed only) ---
+\begin{tikzpicture}
+\begin{feynman}
+  % Vertices
+  \vertex (l1) at (0,0) {\(\bar{d}\)};
+  \vertex [coordinate] (a) at (1,2) {};
+  \vertex (l2) at (0,4) {\(\bar{u}\)};
+  \vertex (b) at (4,2) {};
+
+  \diagram*{
+    (l1) -- [fermion] (a) -- [fermion] (l2),
+    (a) -- [boson, edge label=\(x\), momentum'={}] (b),
+  };
+\end{feynman}
+\end{tikzpicture}
+% --- END TEMPLATE ---
+\end{minipage}
+&
+% RIGHT COLUMN
+\begin{minipage}[t]{0.50\textwidth}
+\vspace{0pt}
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{@{}l c c c c c@{}}
+ & \(\bar{d}\) & \(\Rightarrow\) & \(\bar{u}\) & \(+\) & \(x\) \\
+Charge &  &  &  &  &  \\
+Lepton no. &  &  &  &  &  \\
+Baryon no. &  &  &  &  &  \\
+\end{tabular}
+
+\end{minipage}
+
+\end{tabular}
+
+\vspace{0.5cm}
+
+\textbf{Conclusion:}
+
+\vspace{2.2cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Q2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\textbf{Q2:} Determine the unknown particle:
+\[
+c \rightarrow x + W^+
+\]
+
+\vspace{0.5cm}
+
+\begin{tabular}{l l}
+
+% LEFT COLUMN
+\begin{minipage}[t]{0.46\textwidth}
+\vspace{0pt}
+\textbf{Feynman diagram}
+
+\vspace{0.6cm}
+
+% --- TEMPLATE (labels changed only) ---
+\begin{tikzpicture}
+\begin{feynman}
+  % Vertices
+  \vertex (l1) at (0,0) {\(c\)};
+  \vertex [coordinate] (a) at (1,2) {};
+  \vertex (l2) at (0,4) {\(x\)};
+  \vertex (b) at (4,2) {};
+
+  \diagram*{
+    (l1) -- [fermion] (a) -- [fermion] (l2),
+    (a) -- [boson, edge label=\(W^+\), momentum'={}] (b),
+  };
+\end{feynman}
+\end{tikzpicture}
+% --- END TEMPLATE ---
+\end{minipage}
+&
+% RIGHT COLUMN
+\begin{minipage}[t]{0.50\textwidth}
+\vspace{0pt}
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{@{}l c c c c c@{}}
+ & \(c\) & \(\Rightarrow\) & \(x\) & \(+\) & \(W^+\) \\
+Charge &  &  &  &  &  \\
+Lepton no. &  &  &  &  &  \\
+Baryon no. &  &  &  &  &  \\
+\end{tabular}
+
+\end{minipage}
+
+\end{tabular}
+
+\vspace{0.5cm}
+
+\textbf{Conclusion:}
+
+\vspace{2.2cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Q3
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textbf{Q3:} Determine the unknown particles:
+\[
+\mu^- \rightarrow x + y
+\]
+
+\vspace{0.5cm}
+
+\begin{tabular}{l l}
+
+% LEFT COLUMN
+\begin{minipage}[t]{0.46\textwidth}
+\vspace{0pt}
+\textbf{Feynman diagram}
+
+\vspace{0.6cm}
+
+% --- TEMPLATE (labels changed only) ---
+\begin{tikzpicture}
+\begin{feynman}
+  % Vertices
+  \vertex (l1) at (0,0) {\(\mu^-\)};
+  \vertex [coordinate] (a) at (1,2) {};
+  \vertex (l2) at (0,4) {\(x\)};
+  \vertex (b) at (4,2) {};
+
+  \diagram*{
+    (l1) -- [fermion] (a) -- [fermion] (l2),
+    (a) -- [boson, edge label=\(y\), momentum'={}] (b),
+  };
+\end{feynman}
+\end{tikzpicture}
+% --- END TEMPLATE ---
+\end{minipage}
+&
+% RIGHT COLUMN
+\begin{minipage}[t]{0.50\textwidth}
+\vspace{0pt}
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{@{}l c c c c c@{}}
+ & \(\mu^-\) & \(\Rightarrow\) & \(x\) & \(+\) & \(y\) \\
+Charge &  &  &  &  &  \\
+Lepton no. &  &  &  &  &  \\
+Baryon no. &  &  &  &  &  \\
+\end{tabular}
+
+\end{minipage}
+
+\end{tabular}
+
+\vspace{0.5cm}
+
+\textbf{Conclusion:}
+
+\vspace{2.2cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Q4
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\textbf{Q4:} Draw a Feynman diagram to show the initial stage of a valid anti-bottom decay.
+
+\vspace{0.4cm}
+\[
+\bar{b} \rightarrow \;\;\; x \;+\; y
+\]
+
+\vspace{0.5cm}
+
+\begin{tabular}{l l}
+
+% LEFT COLUMN (blank drawing space)
+\begin{minipage}[t]{0.46\textwidth}
+\vspace{0pt}
+\textbf{Feynman diagram}
+
+\vspace{0.6cm}
+
+\begin{tikzpicture}
+  \path (0,0) rectangle (6,4.5);
+\end{tikzpicture}
+
+\end{minipage}
+&
+% RIGHT COLUMN (conservation table)
+\begin{minipage}[t]{0.50\textwidth}
+\vspace{0pt}
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{@{}l c c c c c@{}}
+ & \(\bar{b}\) & \(\Rightarrow\) & \(x\) & \(+\) & \(y\) \\
+Charge &  &  &  &  &  \\
+Lepton no. &  &  &  &  &  \\
+Baryon no. &  &  &  &  &  \\
+\end{tabular}
+
+\end{minipage}
+
+\end{tabular}
+
+\vspace{0.5cm}
+
+\textbf{Conclusion:}
+
+\vspace{2.2cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Q5
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textbf{Q5:} Draw a Feynman diagram to show the initial stage of a valid tau decay.
+
+\vspace{0.4cm}
+\[
+\tau^- \rightarrow \;\;\; x \;+\; y
+\]
+
+\vspace{0.5cm}
+
+\begin{tabular}{l l}
+
+% LEFT COLUMN (blank drawing space)
+\begin{minipage}[t]{0.46\textwidth}
+\vspace{0pt}
+\textbf{Feynman diagram}
+
+\vspace{0.6cm}
+
+\begin{tikzpicture}
+  \path (0,0) rectangle (6,4.5);
+\end{tikzpicture}
+
+\end{minipage}
+&
+% RIGHT COLUMN (conservation table)
+\begin{minipage}[t]{0.50\textwidth}
+\vspace{0pt}
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{@{}l c c c c c@{}}
+ & \(\tau^-\) & \(\Rightarrow\) & \(x\) & \(+\) & \(y\) \\
+Charge &  &  &  &  &  \\
+Lepton no. &  &  &  &  &  \\
+Baryon no. &  &  &  &  &  \\
+\end{tabular}
+
+\end{minipage}
+
+\end{tabular}
+
+\vspace{0.5cm}
+
+\textbf{Conclusion:}
+
+\vspace{2.2cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Q6
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\textbf{Q6:} Draw a Feynman diagram to show the initial stage of a valid top decay.
+
+\vspace{0.4cm}
+\[
+t \rightarrow \;\;\; x \;+\; y
+\]
+
+\vspace{0.5cm}
+
+\begin{tabular}{l l}
+
+% LEFT COLUMN (blank drawing space)
+\begin{minipage}[t]{0.46\textwidth}
+\vspace{0pt}
+\textbf{Feynman diagram}
+
+\vspace{0.6cm}
+
+\begin{tikzpicture}
+  \path (0,0) rectangle (6,4.5);
+\end{tikzpicture}
+
+
+\end{minipage}
+&
+% RIGHT COLUMN (conservation table)
+\begin{minipage}[t]{0.50\textwidth}
+\vspace{0pt}
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{@{}l c c c c c@{}}
+ & \(t\) & \(\Rightarrow\) & \(x\) & \(+\) & \(y\) \\
+Charge &  &  &  &  &  \\
+Lepton no. &  &  &  &  &  \\
+Baryon no. &  &  &  &  &  \\
+\end{tabular}
+
+\end{minipage}
+
+\end{tabular}
+
+\vspace{0.5cm}
+
+\textbf{Conclusion:}
+
+\vspace{2.2cm}
+
+\newpage
+
+\section*{Weak Interaction -- Initial Stage \; (Answer Key)}
+
+\textbf{Note:} For Q4--Q6 there are multiple valid answers. One model answer is shown for each, followed by other acceptable options.
+
+\vspace{0.7cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Q1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Q1:} \(\bar{d} \rightarrow \bar{u} + x\)
+
+\[
+\boxed{x = W^+}
+\]
+
+\vspace{0.4cm}
+
+\begin{tabular}{l l}
+
+% LEFT COLUMN
+\begin{minipage}[t]{0.46\textwidth}
+\vspace{0pt}
+\textbf{Feynman diagram}
+
+\vspace{0.6cm}
+
+% --- TEMPLATE (labels changed only) ---
+\begin{tikzpicture}
+\begin{feynman}
+  % Vertices
+  \vertex (l1) at (0,0) {\(\bar{d}\)};
+  \vertex [coordinate] (a) at (1,2) {};
+  \vertex (l2) at (0,4) {\(\bar{u}\)};
+  \vertex (b) at (4,2) {};
+
+  \diagram*{
+    (l1) -- [fermion] (a) -- [fermion] (l2),
+    (a) -- [boson, edge label=\(W^+\), momentum'={}] (b),
+  };
+\end{feynman}
+\end{tikzpicture}
+% --- END TEMPLATE ---
+\end{minipage}
+&
+% RIGHT COLUMN
+\begin{minipage}[t]{0.50\textwidth}
+\vspace{0pt}
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{@{}l c c c c c@{}}
+ & \(\bar{d}\) & \(\Rightarrow\) & \(\bar{u}\) & \(+\) & \(W^+\) \\
+Charge & \(+\tfrac{1}{3}\) & \(=\) & \(-\tfrac{2}{3}\) & \(+\) & \(+1\) \\
+Lepton no. & \(0\) & \(=\) & \(0\) & \(+\) & \(0\) \\
+Baryon no. & \(-\tfrac{1}{3}\) & \(=\) & \(-\tfrac{1}{3}\) & \(+\) & \(0\) \\
+\end{tabular}
+
+\end{minipage}
+
+\end{tabular}
+
+\vspace{0.8cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Q2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\textbf{Q2:} \(c \rightarrow x + W^+\)
+
+\[
+\boxed{x = s \;\; \text{(also valid: } x=d\text{)}}
+\]
+
+\vspace{0.4cm}
+
+\begin{tabular}{l l}
+
+% LEFT COLUMN
+\begin{minipage}[t]{0.46\textwidth}
+\vspace{0pt}
+\textbf{Feynman diagram}
+
+\vspace{0.6cm}
+
+% --- TEMPLATE (labels changed only) ---
+\begin{tikzpicture}
+\begin{feynman}
+  % Vertices
+  \vertex (l1) at (0,0) {\(c\)};
+  \vertex [coordinate] (a) at (1,2) {};
+  \vertex (l2) at (0,4) {\(s\)};
+  \vertex (b) at (4,2) {};
+
+  \diagram*{
+    (l1) -- [fermion] (a) -- [fermion] (l2),
+    (a) -- [boson, edge label=\(W^+\), momentum'={}] (b),
+  };
+\end{feynman}
+\end{tikzpicture}
+% --- END TEMPLATE ---
+\end{minipage}
+&
+% RIGHT COLUMN
+\begin{minipage}[t]{0.50\textwidth}
+\vspace{0pt}
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{@{}l c c c c c@{}}
+ & \(c\) & \(\Rightarrow\) & \(s\) & \(+\) & \(W^+\) \\
+Charge & \(+\tfrac{2}{3}\) & \(=\) & \(-\tfrac{1}{3}\) & \(+\) & \(+1\) \\
+Lepton no. & \(0\) & \(=\) & \(0\) & \(+\) & \(0\) \\
+Baryon no. & \(+\tfrac{1}{3}\) & \(=\) & \(+\tfrac{1}{3}\) & \(+\) & \(0\) \\
+\end{tabular}
+
+\end{minipage}
+
+\end{tabular}
+
+\vspace{0.8cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Q3
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Q3:} \(\mu^- \rightarrow x + y\)
+
+\[
+\boxed{x=\nu_\mu \quad\text{and}\quad y=W^-}
+\]
+
+\vspace{0.4cm}
+
+\begin{tabular}{l l}
+
+% LEFT COLUMN
+\begin{minipage}[t]{0.46\textwidth}
+\vspace{0pt}
+\textbf{Feynman diagram}
+
+\vspace{0.6cm}
+
+% --- TEMPLATE (labels changed only) ---
+\begin{tikzpicture}
+\begin{feynman}
+  % Vertices
+  \vertex (l1) at (0,0) {\(\mu^-\)};
+  \vertex [coordinate] (a) at (1,2) {};
+  \vertex (l2) at (0,4) {\(\nu_\mu\)};
+  \vertex (b) at (4,2) {};
+
+  \diagram*{
+    (l1) -- [fermion] (a) -- [fermion] (l2),
+    (a) -- [boson, edge label=\(W^-\), momentum'={}] (b),
+  };
+\end{feynman}
+\end{tikzpicture}
+% --- END TEMPLATE ---
+\end{minipage}
+&
+% RIGHT COLUMN
+\begin{minipage}[t]{0.50\textwidth}
+\vspace{0pt}
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{@{}l c c c c c@{}}
+ & \(\mu^-\) & \(\Rightarrow\) & \(\nu_\mu\) & \(+\) & \(W^-\) \\
+Charge & \(-1\) & \(=\) & \(0\) & \(+\) & \(-1\) \\
+Lepton no. & \(+1\) & \(=\) & \(+1\) & \(+\) & \(0\) \\
+Baryon no. & \(0\) & \(=\) & \(0\) & \(+\) & \(0\) \\
+\end{tabular}
+
+\end{minipage}
+
+\end{tabular}
+
+\vspace{1.0cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Q4
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\textbf{Q4:} Draw a Feynman diagram to show the initial stage of a valid anti-bottom decay.
+
+\vspace{0.3cm}
+\textbf{Model valid answer:}
+\[
+\boxed{\bar{b} \rightarrow \bar{c} + W^+}
+\]
+
+\vspace{0.4cm}
+
+\begin{tikzpicture}
+\begin{feynman}
+  \vertex (l1) at (0,0) {\(\bar{b}\)};
+  \vertex [coordinate] (a) at (1,2) {};
+  \vertex (l2) at (0,4) {\(\bar{c}\)};
+  \vertex (b) at (4,2) {};
+
+  \diagram*{
+    (l1) -- [fermion] (a) -- [fermion] (l2),
+    (a) -- [boson, edge label=\(W^+\)] (b),
+  };
+\end{feynman}
+\end{tikzpicture}
+
+\vspace{0.5cm}
+\textbf{Other acceptable answers include:}
+\[
+\bar{b}\rightarrow \bar{u}+W^+ \quad (\text{due to energy considerations: } \bar{b}\rightarrow \bar{t}+W^+ \text{ is not allowed})
+\]
+
+\vspace{0.8cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Q5
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Q5:} Draw a Feynman diagram to show the initial stage of a valid tau decay.
+
+\vspace{0.3cm}
+\textbf{Model valid answer:}
+\[
+\boxed{\tau^- \rightarrow \nu_\tau + W^-}
+\]
+
+\vspace{0.4cm}
+
+\begin{tikzpicture}
+\begin{feynman}
+  \vertex (l1) at (0,0) {\(\tau^-\)};
+  \vertex [coordinate] (a) at (1,2) {};
+  \vertex (l2) at (0,4) {\(\nu_\tau\)};
+  \vertex (b) at (4,2) {};
+
+  \diagram*{
+    (l1) -- [fermion] (a) -- [fermion] (l2),
+    (a) -- [boson, edge label=\(W^-\)] (b),
+  };
+\end{feynman}
+\end{tikzpicture}
+
+\vspace{0.5cm}
+\textbf{No other acceptable answers in this case}
+
+\vspace{0.8cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Q6
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\textbf{Q6:} Draw a Feynman diagram to show the initial stage of a valid top decay.
+
+\vspace{0.3cm}
+\textbf{Model valid answer:}
+\[
+\boxed{t \rightarrow b + W^+}
+\]
+
+\vspace{0.4cm}
+
+\begin{tikzpicture}
+\begin{feynman}
+  \vertex (l1) at (0,0) {\(t\)};
+  \vertex [coordinate] (a) at (1,2) {};
+  \vertex (l2) at (0,4) {\(b\)};
+  \vertex (b) at (4,2) {};
+
+  \diagram*{
+    (l1) -- [fermion] (a) -- [fermion] (l2),
+    (a) -- [boson, edge label=\(W^+\)] (b),
+  };
+\end{feynman}
+\end{tikzpicture}
+
+\vspace{0.5cm}
+\textbf{Other acceptable answers include:}
+\[
+t\rightarrow s+W^+ \quad \text{or} \quad t\rightarrow d+W^+
+\]
+
+\end{document}
