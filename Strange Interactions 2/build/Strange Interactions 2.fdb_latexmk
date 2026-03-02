@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1772449496.96759 "u:/Programs/worksheets/Strange Interactions 2/Strange Interactions 2.tex" "build/Strange Interactions 2.pdf" "Strange Interactions 2" 1772449498.04015 0
+["pdflatex"] 1772456308.65969 "u:/Programs/worksheets/Strange Interactions 2/Strange Interactions 2.tex" "build/Strange Interactions 2.pdf" "Strange Interactions 2" 1772456309.41226 0
   "C:/Users/rsantos/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1770641533 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/rsantos/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1770639850 14064 262afe69f9984a0fc165d3d6f974fbb4 ""
   "C:/Users/rsantos/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1770383423 13334870 9c4923ddfb04aba098bbb93db13b6157 ""
@@ -38,9 +38,9 @@
   "C:/Users/rsantos/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
   "C:/Users/rsantos/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1749322634 2671 d9941f4bf4750e9b0603c9a2ec54693b ""
   "C:/Users/rsantos/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1761202581 30662 bfd6e864f4ffc5018b0e2b6260c3181c ""
-  "Strange Interactions 2.tex" 1772449496 2486 f0424e1cb7ac76d8ac9e0f282fe79ac0 ""
-  "build/Strange Interactions 2.aux" 1772449497 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
-  "u:/Programs/worksheets/Strange Interactions 2/Strange Interactions 2.tex" 1772449496 2486 f0424e1cb7ac76d8ac9e0f282fe79ac0 ""
+  "Strange Interactions 2.tex" 1772456307 2498 b97dde3c636db27399cf128689366a2f ""
+  "build/Strange Interactions 2.aux" 1772456309 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
+  "u:/Programs/worksheets/Strange Interactions 2/Strange Interactions 2.tex" 1772456307 2498 b97dde3c636db27399cf128689366a2f ""
   (generated)
   "build/Strange Interactions 2.aux"
   "build/Strange Interactions 2.log"
