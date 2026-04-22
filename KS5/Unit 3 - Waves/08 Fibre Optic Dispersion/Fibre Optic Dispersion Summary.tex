@@ -1,0 +1,129 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[top=3.5cm,bottom=2.2cm,left=2.2cm,right=2.2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{caption}
+\usepackage{xcolor}
+
+% Auto image box: embeds file if present, otherwise shows a labeled placeholder box
+\makeatletter
+\newcommand{\imgbox}[3][\linewidth]{%
+  \begingroup
+  \IfFileExists{#2}{%
+    \begin{center}\includegraphics[width=#1]{#2}\end{center}%
+  }{%
+    \begin{center}
+      \fbox{\parbox[c][6cm][c]{#1}{\centering\footnotesize #3\\[2mm]\texttt{#2} not found}}
+    \end{center}%
+  }%
+  \endgroup
+}
+\makeatother
+
+\titleformat{\section}{\large\bfseries}{}{0pt}{}
+\setlist[itemize]{leftmargin=1.2cm}
+
+\begin{document}
+
+{\centering\Huge\bfseries Multipath and Spectral Dispersion in Fibre Optics\\[4pt]
+\Large \par}
+\vspace{1cm}
+
+When light travels through an optical fibre, it can spread out as it moves, causing the signal to blur. This effect is called \textbf{dispersion}, and it limits how quickly data can be sent, since pulses begin to overlap.
+
+\subsection*{1.\ Multipath (Modal) Dispersion}
+In a \textit{multimode} fibre, light can travel along many different paths, or modes.
+\begin{itemize}
+  \item Some rays go straight down the centre (\textit{shortest path}).
+  \item Others reflect off the sides at angles (\textit{longer paths}).
+\end{itemize}
+
+% Image box for Multipath/Modal dispersion
+\imgbox{img1.png}{Multipath (modal) dispersion diagram placeholder}
+
+Because each path takes a slightly different time, parts of the same pulse arrive at different moments, stretching the signal out.
+
+Multipath dispersion occurs for both \textit{monochromatic} light (single wavelength) and \textit{white} light (range of wavelengths), because it is caused by differences in path length rather than wavelength.
+
+\newpage
+
+\subsection*{2.\ Spectral (Chromatic) Dispersion}
+Even a single pulse from a laser or LED can contain a small range of wavelengths. Different wavelengths travel at slightly different speeds through the fibre material.
+\begin{itemize}
+  \item Shorter wavelengths (blue) usually travel more slowly than longer wavelengths (red).
+\end{itemize}
+
+% Image box for Spectral/Chromatic dispersion
+\imgbox{img2.png}{Spectral (chromatic) dispersion diagram placeholder}
+
+This difference in speed causes the pulse to spread out over distance.
+
+Spectral dispersion only occurs when the light has \textit{more than one wavelength} --- it does not occur with perfectly monochromatic light.
+
+
+
+\subsection*{Reducing Dispersion}
+\begin{itemize}
+  \item \textbf{Single-mode fibre}: eliminates \textit{multipath dispersion} by allowing only one path for light.
+  \item \textbf{Laser light source}: minimises \textit{spectral dispersion} by providing nearly monochromatic light.
+  \item \textbf{Graded-index fibre}: reduces \textit{multipath dispersion} by making rays on different paths take nearly the same time.
+\end{itemize}
+
+\newpage
+
+\section*{Check Your Understanding}
+
+\begin{enumerate}
+  \item Explain the difference between multipath (modal) dispersion and spectral (chromatic) dispersion in optical fibres.
+
+  \item State whether each of the following would experience multipath dispersion, spectral dispersion, both, or neither:
+  \begin{enumerate}[label=\alph*)]
+    \item White light in a multimode fibre
+    \item Monochromatic laser light in a multimode fibre
+    \item White light in a single-mode fibre
+    \item Monochromatic laser light in a single-mode fibre
+  \end{enumerate}
+
+  \item Describe why multipath dispersion can occur even when monochromatic light is used, but spectral dispersion cannot.
+
+  \item A communication system uses an LED source with a multimode fibre. The signal quality decreases over long distances due to pulse broadening. \\
+  \textbf{a)} Identify the two types of dispersion responsible for this effect. \\
+  \textbf{b)} Suggest one change to the system design that would reduce each type of dispersion and explain why.
+\end{enumerate}
+
+\newpage
+\section*{Answers}
+
+\begin{enumerate}
+  \item \textbf{Difference between multipath and spectral dispersion:}\\[4pt]
+  \textbf{Multipath (modal) dispersion} occurs because different light rays or modes take different paths and therefore different times to reach the end of the fibre.\\
+  \textbf{Spectral (chromatic) dispersion} occurs because different wavelengths of light travel at slightly different speeds through the fibre material.
+
+  \item \textbf{Which dispersions occur:}\\[4pt]
+  \begin{tabular}{|p{8cm}|c|}
+    \hline
+    \textbf{Situation} & \textbf{Dispersion Type(s)} \\
+    \hline
+    a) White light in a multimode fibre & Multipath and Spectral \\
+    \hline
+    b) Monochromatic laser light in a multimode fibre & Multipath only \\
+    \hline
+    c) White light in a single-mode fibre & Spectral only \\
+    \hline
+    d) Monochromatic laser light in a single-mode fibre & Neither (negligible) \\
+    \hline
+  \end{tabular}
+
+  \item \textbf{Why multipath can occur for monochromatic light but spectral cannot:}\\[4pt]
+  Multipath dispersion is caused by differences in path length between modes and does not depend on wavelength. Spectral dispersion depends on the light containing more than one wavelength, so it does not occur for perfectly monochromatic light.
+
+  \item \textbf{Communication system example:}\\[4pt]
+  \textbf{a)} The two types of dispersion are \textit{multipath (modal)} and \textit{spectral (chromatic)}.\\
+  \textbf{b)} To reduce multipath dispersion, use a \textit{single-mode fibre} or a \textit{graded-index multimode fibre}. To reduce spectral dispersion, use a \textit{laser source} that emits nearly monochromatic light.
+\end{enumerate}
+
+
+\end{document}

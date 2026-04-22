@@ -1,0 +1,54 @@
+PWD u:\Programs\worksheets\KS4\Energy Resources\Worksheet - Energy Generation and Fossil Fuels
+INPUT C:\Users\rsantos\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT u:\Programs\worksheets\KS4\Energy Resources\Worksheet - Energy Generation and Fossil Fuels\Worksheet - Energy Generation & Fossil Fuels.tex
+OUTPUT u:\Programs\worksheets\KS4\Energy Resources\Worksheet - Energy Generation and Fossil Fuels\build\Worksheet - Energy Generation & Fossil Fuels.log
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\setspace\setspace.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\setspace\setspace.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT u:\Programs\worksheets\KS4\Energy Resources\Worksheet - Energy Generation and Fossil Fuels\build\Worksheet - Energy Generation & Fossil Fuels.aux
+INPUT u:\Programs\worksheets\KS4\Energy Resources\Worksheet - Energy Generation and Fossil Fuels\build\Worksheet - Energy Generation & Fossil Fuels.aux
+INPUT u:\Programs\worksheets\KS4\Energy Resources\Worksheet - Energy Generation and Fossil Fuels\build\Worksheet - Energy Generation & Fossil Fuels.aux
+OUTPUT u:\Programs\worksheets\KS4\Energy Resources\Worksheet - Energy Generation and Fossil Fuels\build\Worksheet - Energy Generation & Fossil Fuels.aux
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+OUTPUT u:\Programs\worksheets\KS4\Energy Resources\Worksheet - Energy Generation and Fossil Fuels\build\Worksheet - Energy Generation & Fossil Fuels.pdf
+INPUT C:\Users\rsantos\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT u:\Programs\worksheets\KS4\Energy Resources\Worksheet - Energy Generation and Fossil Fuels\build\Worksheet - Energy Generation & Fossil Fuels.aux
+INPUT C:\Users\rsantos\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\rsantos\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb

@@ -1,0 +1,121 @@
+
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{siunitx}
+\sisetup{per-mode=symbol, inter-unit-product = \cdot}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Wave Equation Worksheet}}\\
+    \vspace{0.5em}
+\end{center}
+
+\bigskip
+
+The wave equation relates the velocity \(v\) of a wave to its frequency \(f\) and wavelength \(\lambda\):
+\[
+    v = f \lambda
+\]
+
+\begin{enumerate}
+    \item[\textbf{1.}] Rewrite the wave equation to make:
+        \begin{enumerate}
+            \item \(f\) the subject;
+            \item \(\lambda\) the subject.
+        \end{enumerate}
+
+    % --- Core practice questions ---
+    \item[\textbf{2.}] A sound wave in air has a velocity of \SI{340}{m/s} and a frequency of \SI{170}{Hz}. Calculate its wavelength.
+
+    \item[\textbf{3.}] An ocean wave has a wavelength of \SI{5.0}{m} and a frequency of \SI{0.20}{Hz}. Determine its velocity.
+
+    \item[\textbf{4.}] A guitar string vibrates at \SI{440}{Hz} with a wavelength of \SI{0.78}{m}. What is the wave speed along the string?
+
+    \item[\textbf{5.}] Microwaves in a kitchen oven travel at \SI{3.0e8}{m/s} and have a wavelength of \SI{0.125}{m}. Find their frequency.
+
+    \item[\textbf{6.}] A sound pulse travels through water at \SI{1500}{m/s} with a wavelength of \SI{0.50}{m}. Calculate its frequency.
+
+    \item[\textbf{7.}] A bat emits a sound at \SI{25}{kHz}. If the speed of sound in air is \SI{330}{m/s}, work out the wavelength of the sound.
+
+    \item[\textbf{8.}] Ripples in a tank move at \SI{0.25}{m/s} and have a wavelength of \SI{0.050}{m}. Determine their frequency.
+
+    % --- Extension questions ---
+    \item[\textbf{9.}] A seismic wave travels at \SI{6000}{m/s} with a wavelength of \SI{2.0}{m}. Calculate its frequency in \si{kHz}.
+
+    \item[\textbf{10.}] Medical ultrasound travels through human tissue at \SI{1540}{m/s}. If its frequency is \SI{2.5}{kHz}, find its wavelength in \si{mm}.
+
+    \item[\textbf{11.}] A radio station broadcasts at \SI{650}{kHz}. Taking the wave speed to be \SI{3.0e8}{m/s}, determine the broadcast wavelength.
+
+    \item[\textbf{12.}] A water wave has a wavelength of \SI{0.80}{m} and a frequency of \SI{1.5}{Hz}. 
+        \begin{enumerate}
+            \item Convert the wavelength to \si{cm}.
+            \item Calculate the velocity of the wave.
+        \end{enumerate}
+
+    \item[\textbf{13.}] A wave travels \SI{48}{km} in \SI{2.0}{min}. If its frequency is \SI{400}{Hz}, find its wavelength. *(Hint: convert all quantities to SI units first.)*
+\end{enumerate}
+
+\newpage
+\section*{Answer Key}
+\begin{enumerate}
+    \item[\textbf{1.}] (a) \(f = \dfrac{v}{\lambda}\) \quad (b) \(\lambda = \dfrac{v}{f}\)
+    \item[\textbf{2.}] \(\lambda = \SI{2.0}{m}\)
+    \item[\textbf{3.}] \(v = \SI{1.0}{m/s}\)
+    \item[\textbf{4.}] \(v = \SI{3.4e2}{m/s}\) (approximately)
+    \item[\textbf{5.}] \(f = \SI{2.4e9}{Hz}\)
+    \item[\textbf{6.}] \(f = \SI{3.0}{kHz}\)
+    \item[\textbf{7.}] \(\lambda = \SI{1.32}{cm}\)
+    \item[\textbf{8.}] \(f = \SI{5.0}{Hz}\)
+    \item[\textbf{9.}] \(f = \SI{3}{kHz}\)
+    \item[\textbf{10.}] \(\lambda = \SI{6.16e2}{mm}\)
+    \item[\textbf{11.}] \(\lambda \approx \SI{4.62e2}{m}\)
+    \item[\textbf{12.}] (a) \(\SI{80}{cm}\) \quad (b) \(v = \SI{1.2}{m/s}\)
+    \item[\textbf{13.}] \(\lambda = \SI{1.0}{m}\)
+\end{enumerate}
+
+\newpage
+\section*{Fully Worked Solutions}
+
+\begin{enumerate}
+    \item[\textbf{1.}] Starting from \(v = f\lambda\):
+        \begin{enumerate}
+            \item Divide both sides by \(\lambda\): \(f = \dfrac{v}{\lambda}\).
+            \item Divide both sides by \(f\): \(\lambda = \dfrac{v}{f}\).
+        \end{enumerate}
+
+    \item[\textbf{2.}] \(\lambda = \dfrac{v}{f} = \dfrac{340\,\text{m/s}}{170\,\text{Hz}} = \mathbf{2.0\;m}\).
+
+    \item[\textbf{3.}] \(v = f\lambda = 0.20\,\text{Hz} \times 5.0\,\text{m} = \mathbf{1.0\;m/s}\).
+
+    \item[\textbf{4.}] \(v = f\lambda = 440\,\text{Hz} \times 0.78\,\text{m} = \mathbf{3.4 \times 10^{2}\;m/s}\).
+
+    \item[\textbf{5.}] \(f = \dfrac{v}{\lambda} = \dfrac{3.0\times10^{8}\,\text{m/s}}{0.125\,\text{m}} = \mathbf{2.4 \times 10^{9}\;Hz}\).
+
+    \item[\textbf{6.}] \(f = \dfrac{v}{\lambda} = \dfrac{1500\,\text{m/s}}{0.50\,\text{m}} = 3000\,\text{Hz} = \mathbf{3.0\;kHz}\).
+
+    \item[\textbf{7.}] \(\lambda = \dfrac{v}{f} = \dfrac{330\,\text{m/s}}{25\,000\,\text{Hz}} = 0.0132\,\text{m} = \mathbf{1.32\;cm}\).
+
+    \item[\textbf{8.}] \(f = \dfrac{v}{\lambda} = \dfrac{0.25\,\text{m/s}}{0.050\,\text{m}} = \mathbf{5.0\;Hz}\).
+
+    \item[\textbf{9.}] \(f = \dfrac{v}{\lambda} = \dfrac{6000\,\text{m/s}}{2.0\,\text{m}} = 3000\,\text{Hz} = \mathbf{3.0\;kHz}\).
+
+    \item[\textbf{10.}] \(\lambda = \dfrac{v}{f} = \dfrac{1540\,\text{m/s}}{2500\,\text{Hz}} = 0.616\,\text{m} = 616\,\text{mm}\).
+
+    \item[\textbf{11.}] \(\lambda = \dfrac{v}{f} = \dfrac{3.0\times10^{8}\,\text{m/s}}{650\,000\,\text{Hz}} \approx 4.62\times10^{2}\,\text{m}\).
+
+    \item[\textbf{12.}] 
+        \begin{enumerate}
+            \item \(\lambda = 0.80\,\text{m} = 80\,\text{cm}\).
+            \item \(v = f\lambda = 1.5\,\text{Hz} \times 0.80\,\text{m} = \mathbf{1.2\;m/s}\).
+        \end{enumerate}
+
+    \item[\textbf{13.}] First, convert the distance to metres and time to seconds:\\
+        \(48\,\text{km} = 48\,000\,\text{m}\), \(\;2.0\,\text{min} = 120\,\text{s}\).\\
+        Wave speed \(v = \dfrac{48\,000\,\text{m}}{120\,\text{s}} = 400\,\text{m/s}\).\\
+        Wavelength \( \lambda = \dfrac{v}{f} = \dfrac{400\,\text{m/s}}{400\,\text{Hz}} = \mathbf{1.0\;m}\).
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,125 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{siunitx}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=0.4em}
+\setlength{\parindent}{0pt}
+\sisetup{per-mode=symbol}
+
+\begin{document}
+
+\begin{center}
+{\LARGE Worksheet: Simple Harmonic Motion (SHM)}\\[2pt]
+{\large Section 1 — Reading Parameters from Graphs}\\[4pt]
+\end{center}
+
+\section*{Section 1 — Read SHM from Graphs}
+Each question shows an SHM graph (either \(x(t)\), \(v(t)\), or \(a(t)\)). The image file is named by the function shown. Use standard SHM relations:
+\[
+v_{\max}=A\omega,\quad a_{\max}=A\omega^{2},\quad
+T=\frac{2\pi}{\omega},\quad f=\frac{\omega}{2\pi},\quad
+v(x)=\pm\,\omega\sqrt{A^{2}-x^{2}},\quad a(t)=-\omega^{2}x(t).
+\]
+
+\begin{enumerate}
+% Q1: x(t) sine
+\item \textbf{Graph 1:} \includegraphics[width=0.65\textwidth]{x=0.10sin(4t).png}
+\begin{enumerate}[label=\alph*)]
+\item Determine the angular frequency \(\omega\).
+\item Hence find the maximum speed \(v_{\max}\).
+\end{enumerate}
+
+% Q2: x(t) cosine
+\item \textbf{Graph 2:} \includegraphics[width=0.65\textwidth]{x=0.12cos(3t).png}
+\begin{enumerate}[label=\alph*)]
+\item Determine the period \(T\).
+\item Find the displacement at \(t=\tfrac{T}{4}\).
+\end{enumerate}
+
+% Q3: v(t) cosine
+\item \textbf{Graph 3:} \includegraphics[width=0.65\textwidth]{v=0.30cos(5t).png}
+\begin{enumerate}[label=\alph*)]
+\item Determine the amplitude \(A\) of the motion.
+\item Find the displacement at \(t=\tfrac{T}{3}\).
+\end{enumerate}
+
+% Q4: v(t) sine
+\item \textbf{Graph 4:} \includegraphics[width=0.65\textwidth]{v=0.24sin(2t).png}
+\begin{enumerate}[label=\alph*)]
+\item Determine the frequency \(f\).
+\item Find the acceleration \(a\) at \(t=\tfrac{T}{2}\).
+\end{enumerate}
+
+% Q5: a(t) cosine
+\item \textbf{Graph 5:} \includegraphics[width=0.65\textwidth]{a=1.20cos(pit).png}
+\begin{enumerate}[label=\alph*)]
+\item Determine the amplitude \(A\) of the displacement.
+\item Find the speed when \(x=\tfrac{A}{2}\).
+\end{enumerate}
+
+% Q6: a(t) sine
+\item \textbf{Graph 6:} \includegraphics[width=0.65\textwidth]{a=2.00sin(3t).png}
+\begin{enumerate}[label=\alph*)]
+\item Determine the period \(T\).
+\item Find the displacement \(x\) at \(t=\tfrac{T}{4}\).
+\end{enumerate}
+
+\end{enumerate}
+
+\newpage
+\begin{center}
+{\LARGE Answer Key — Section 1}
+\end{center}
+
+\begin{enumerate}
+\item \(x=0.10\sin(4t)\Rightarrow A=\SI{0.10}{m},\ \omega=\SI{4}{s^{-1}}\).
+\begin{enumerate}[label=\alph*)]
+\item \(\omega=\boxed{\SI{4}{s^{-1}}}\).
+\item \(v_{\max}=A\omega=0.10\times 4=\boxed{\SI{0.40}{m\,s^{-1}}}\).
+\end{enumerate}
+
+\item \(x=0.12\cos(3t)\Rightarrow A=\SI{0.12}{m},\ \omega=\SI{3}{s^{-1}}\).
+\begin{enumerate}[label=\alph*)]
+\item \(T=2\pi/3\approx\boxed{\SI{2.094}{s}}\).
+\item At \(t=T/4:\ \omega t=3\cdot (2\pi/12)=\pi/2\). \\
+\(x=0.12\cos(\pi/2)=\boxed{0}\).
+\end{enumerate}
+
+\item \(v=0.30\cos(5t)\Rightarrow v_{\max}=\SI{0.30}{m\,s^{-1}},\ \omega=\SI{5}{s^{-1}}\).
+\begin{enumerate}[label=\alph*)]
+\item \(A=v_{\max}/\omega=0.30/5=\boxed{\SI{0.060}{m}}\).
+\item \(T=2\pi/5\). At \(t=T/3:\ \omega t=5\cdot (2\pi/15)=2\pi/3\). \\
+Since \(v=V\cos(\omega t)\), displacement \(x=A\sin(\omega t)\). \\
+\(x=0.060\sin(2\pi/3)=0.060\times 0.866=\boxed{\SI{0.052}{m}}\).
+\end{enumerate}
+
+\item \(v=0.24\sin(2t)\Rightarrow v_{\max}=\SI{0.24}{m\,s^{-1}},\ \omega=\SI{2}{s^{-1}}\).
+\begin{enumerate}[label=\alph*)]
+\item \(f=\omega/(2\pi)=2/(2\pi)=\boxed{\SI{0.318}{Hz}}\).
+\item At \(t=T/2:\ \omega t=2\cdot (\pi/2)=\pi\). \\
+So \(v=0\). Acceleration comes from \(a=\dot v\). \\
+\(\dot v=0.24\cdot 2\cos(2t)=0.48\cos(2t)\). At \(t=T/2\): \(\cos(\pi)=-1\). \\
+So \(a=\boxed{-0.48\ \si{m\,s^{-2}}}\).
+\end{enumerate}
+
+\item \(a=1.20\cos(\pi t)\Rightarrow a_{\max}=\SI{1.20}{m\,s^{-2}},\ \omega=\pi\).
+\begin{enumerate}[label=\alph*)]
+\item \(A=a_{\max}/\omega^{2}=1.20/\pi^{2}\approx\boxed{\SI{0.122}{m}}\).
+\item For \(x=A/2\): \(v=\omega\sqrt{A^{2}-x^{2}}=\omega A\sqrt{1-1/4} \). \\
+\(=\tfrac{\sqrt{3}}{2}\pi A\approx \boxed{\SI{0.331}{m\,s^{-1}}}\).
+\end{enumerate}
+
+\item \(a=2.00\sin(3t)\Rightarrow a_{\max}=\SI{2.00}{m\,s^{-2}},\ \omega=\SI{3}{s^{-1}}\).
+\begin{enumerate}[label=\alph*)]
+\item \(T=2\pi/3\approx\boxed{\SI{2.094}{s}}\).
+\item At \(t=T/4:\ \omega t=3\cdot (\pi/6)=\pi/2\). \\
+\(a=2\sin(\pi/2)=2\). Since \(a=-\omega^{2}x\), \\
+\(x=-a/\omega^{2}=-2/9=\boxed{\SI{-0.222}{m}}\).
+\end{enumerate}
+
+\end{enumerate}
+
+\end{document}
