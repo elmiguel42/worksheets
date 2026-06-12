@@ -4,10 +4,10 @@ INPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density\W
 OUTPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density\build\Worksheet - Density.log
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
-INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
-INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
-INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
-INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
@@ -66,17 +66,11 @@ INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\translations\dict
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
@@ -85,18 +79,18 @@ INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.t
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 OUTPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density\build\Worksheet - Density.pdf
 INPUT C:\Users\rsantos\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density\build\Worksheet - Density.aux
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
-INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
