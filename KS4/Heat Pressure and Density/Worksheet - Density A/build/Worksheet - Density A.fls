@@ -1,7 +1,7 @@
-PWD u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density
+PWD u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density A
 INPUT C:\Users\rsantos\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density\Worksheet - Density.tex
-OUTPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density\build\Worksheet - Density.log
+INPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density A\Worksheet - Density A.tex
+OUTPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density A\build\Worksheet - Density A.log
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
@@ -56,10 +56,10 @@ INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolo
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density\build\Worksheet - Density.aux
-INPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density\build\Worksheet - Density.aux
-INPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density\build\Worksheet - Density.aux
-OUTPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density\build\Worksheet - Density.aux
+INPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density A\build\Worksheet - Density A.aux
+INPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density A\build\Worksheet - Density A.aux
+INPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density A\build\Worksheet - Density A.aux
+OUTPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density A\build\Worksheet - Density A.aux
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
@@ -80,9 +80,9 @@ INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-OUTPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density\build\Worksheet - Density.pdf
+OUTPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density A\build\Worksheet - Density A.pdf
 INPUT C:\Users\rsantos\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density\build\Worksheet - Density.aux
+INPUT u:\Programs\worksheets\KS4\Heat Pressure and Density\Worksheet - Density A\build\Worksheet - Density A.aux
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
