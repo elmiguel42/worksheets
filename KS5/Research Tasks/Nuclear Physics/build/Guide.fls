@@ -1,0 +1,50 @@
+PWD u:\Programs\worksheets\KS5\Research Tasks\Nuclear Physics
+INPUT C:\Users\rsantos\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT u:\Programs\worksheets\KS5\Research Tasks\Nuclear Physics\Guide.tex
+OUTPUT u:\Programs\worksheets\KS5\Research Tasks\Nuclear Physics\build\Guide.log
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1095.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT u:\Programs\worksheets\KS5\Research Tasks\Nuclear Physics\build\Guide.aux
+INPUT u:\Programs\worksheets\KS5\Research Tasks\Nuclear Physics\build\Guide.aux
+INPUT u:\Programs\worksheets\KS5\Research Tasks\Nuclear Physics\build\Guide.aux
+OUTPUT u:\Programs\worksheets\KS5\Research Tasks\Nuclear Physics\build\Guide.aux
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1728.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1440.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
+INPUT C:\Users\rsantos\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
+OUTPUT u:\Programs\worksheets\KS5\Research Tasks\Nuclear Physics\build\Guide.pdf
+INPUT C:\Users\rsantos\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT u:\Programs\worksheets\KS5\Research Tasks\Nuclear Physics\build\Guide.aux
+INPUT C:\Users\rsantos\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
+INPUT C:\Users\rsantos\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
+INPUT C:\Users\rsantos\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\rsantos\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\rsantos\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
+INPUT C:\Users\rsantos\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
+INPUT C:\Users\rsantos\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
+INPUT C:\Users\rsantos\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
+INPUT C:\Users\rsantos\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
+INPUT C:\Users\rsantos\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
